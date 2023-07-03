@@ -1,34 +1,32 @@
 Usage
 =====
 
+.. _spesification:
+Spesification
+-------------
+* PHP ^8.0
+* Laravel 10
+* Metronic Theme (Full-Stack Only)
+
+Required Packeges
+-----------------
+* nwidart/laravel-modules
+* joshbrw/laravel-module-installer
+* spatie/laravel-activitylog
+* spatie/laravel-permission
+* jackiedo/log-reader
+* wildside/userstamps
+* yajra/laravel-datatables
+* yajra/laravel-datatables-oracle
+
 .. _installation:
 
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use Clara, first clone it using git:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+   $ git clone http://10.0.1.21/daeng.deni/clara
 
